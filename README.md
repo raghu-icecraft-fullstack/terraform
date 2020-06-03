@@ -22,7 +22,7 @@ for up-to-date information.
 
 ---
 
-# Terraform v0.13 Highlights
+## Terraform v0.13 Highlights
 
 While we do welcome feedback of any sort during the beta process, our
 development efforts during this period will be focused mainly on fixing issues
