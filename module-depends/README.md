@@ -10,7 +10,7 @@ the calling module.
 Terraform v0.13 introduces this capability by allowing `depends_on` as a
 meta-argument inside `module` blocks:
 
-```
+```hcl
 resource "aws_iam_policy_attachment" "example" {
   name       = "example"
   roles      = [aws_iam_role.example.name]
