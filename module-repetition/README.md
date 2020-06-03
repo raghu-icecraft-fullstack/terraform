@@ -46,7 +46,8 @@ variable "regions" {
 }
 
 module "kubernetes_cluster" {
-  source = "terraform-google-modules/kubernetes-engine/google"
+  source   = "terraform-google-modules/kubernetes-engine/google"
+  for_each = var.regions
 
   project_id        = var.project_id
   name              = each.key
