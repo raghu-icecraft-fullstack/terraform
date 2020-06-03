@@ -37,3 +37,16 @@ The main new features and significant changes in this release are:
 * [Automatic installation of third-party providers](./provider-sources)
 * [Custom validation rules for module variables](./variable-validation)
 
+## Draft Upgrade Guide
+
+When we release the final version of v0.13.0 we will, as usual, include an
+upgrade guide on the website to cover some different situations that users
+might encounter when upgrading from Terraform v0.12.
+
+We have
+[a draft version of the upgrade guide](./draft-upgrade-guide.md)
+here for your reference. Please keep in mind that the content in there is
+written with a different audience in mind than the rest of the content
+here, in that this will be the guide for those who are intending to upgrade
+to v0.13 and _keep using it_, but we don't recommend doing that during the
+beta period.
