@@ -50,3 +50,28 @@ written with a different audience in mind than the rest of the content
 here, in that this will be the guide for those who are intending to upgrade
 to v0.13 and _keep using it_, but we don't recommend doing that during the
 beta period.
+
+## How to Send Feedback
+
+If you try the beta and run into bugs or confusing behavior, we'd love to hear
+from you!
+
+Please check
+[the known issues for v0.13](https://github.com/hashicorp/terraform/issues?q=is%3Aissue+label%3Av0.13)
+first to see if someone has already reported a similar problem. In order to
+expedite the bug-fixing progress it's helpful to have different examples of the
+same problem collected together in the same issue.
+
+If you can't find an existing issue covering the situation you've encountered,
+then please [open a new issue](https://github.com/hashicorp/terraform/issues/new/choose)
+describing the problem, and be sure to mention in the issue body that you
+are using a v0.13 beta version and indicate exactly which release you are
+using: v0.13-beta1 as opposed to v0.13-beta2, for example. Our team will then
+label the issue to include it in the known issues list mentioned above.
+
+We'll be focusing mainly on high-priority bugs during the beta period in order
+to ensure a high-quality final release, so we'd ask that new feature requests
+or enhancement requests related to the features wait until after v0.13.0 final
+is released and then we can potentially address them in later releases.
+
+Thank you for your interest in the v0.13 beta process!
