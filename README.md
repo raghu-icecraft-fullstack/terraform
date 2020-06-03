@@ -13,8 +13,8 @@ infrastructure!
 > didn't anticipate during that internal testing, and so there may well be bugs
 > lurking which we'll aim to address during the beta period.
 
-The information in this repository is likely to be removed or become stale after
-the v0.13 beta period concludes, so we don't recommend using this repository
+The information in this guide is likely to be removed or become stale after
+the v0.13 beta period concludes, so we don't recommend using this content
 as an ongoing reference resource. If you are reading this after v0.13 final is
 released, please refer to
 [the main Terraform documentation](https://www.terraform.io/docs/cli-index.html)
@@ -36,6 +36,14 @@ The main new features and significant changes in this release are:
 * [`depends_on` for modules](./module-depends)
 * [Automatic installation of third-party providers](./provider-sources)
 * [Custom validation rules for module variables](./variable-validation)
+
+The above directories contain Terraform configurations demonstrating the
+features. You can clone the contents of this guide into a local directory to
+try them out with the following command:
+
+```
+git clone https://github.com/hashicorp/terraform.git -b guide-v0.13-beta --single-branch terraform-v0.13-beta
+```
 
 ## Draft Upgrade Guide
 
